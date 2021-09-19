@@ -428,6 +428,8 @@ img{
 
 .about__info-name{
     font-size: var(--smaller-font-size);
+    margin-left: .35rem;
+    margin-right: .35rem;
 }
 
 .about__info-title,
@@ -553,6 +555,30 @@ img{
 .skills__aura{
     width: 60%;
 }
+
+.skills__tensorflow{
+    width: 70%;
+}
+
+.skills__sckit-learn{
+    width: 85%;
+}
+
+.skills__pandas{
+    width: 85%;
+}
+
+.skills__matplot{
+    width: 70%;
+}
+
+.skills__seaborn{
+    width: 70%;
+}
+
+
+
+
 
 .skills__close .skills__list{
     height: 0;
@@ -760,6 +786,7 @@ img{
 
 .portfolio__description{
     margin-bottom: var(--mb-0-75);
+    justify-content: center;
 }
 
 .portfolio__button:hover .button__icon{
